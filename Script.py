@@ -37,7 +37,7 @@ for i, mensagem in enumerate(contatos_df['Mensagem']):
     time.sleep(3)
 
     # Enviar caminho da imagem para o elemento de entrada do tipo arquivo
-    caminho_imagem = "C:\\Users\\Ryan\\Documents\\Script\\Imagem.jpg"
+    caminho_imagem = "C:\\Users\\Ryan\\Documents\\Script\\script-wpp\\Imagem.jpg"
     file_input = WebDriverWait(navegador, 10).until(
         lambda navegador: navegador.find_element(By.XPATH, '//input[@type="file"]')
     )
